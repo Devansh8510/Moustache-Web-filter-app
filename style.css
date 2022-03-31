@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right top, #fe6ee9, #b2a2ff, #25c9ff, #00e3ff, #00f4fe, #00f9ed, #00fdd3, #00ffb2, #00ffc4, #00ffd4, #00ffe3, #00ffef);
+    text-align: center;
+    color: red;
+}
+
+canvas{
+    margin-top: 30px;
+    animation-name: Yashit;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Yashit{
+    from{box-shadow:3px 3px 60px yellow;}
+    to{box-shadow:3px 3px 60px darkblue}
+}
